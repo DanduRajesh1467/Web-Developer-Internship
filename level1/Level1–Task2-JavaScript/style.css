@@ -1,0 +1,171 @@
+body{
+    font-family:'Poppins',sans-serif;
+    text-align:left;
+    background:#f2f2f2;
+    margin-top:5px;
+}
+
+
+header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px 70px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    position:sticky;
+    
+    top:0;
+}
+.logo{
+
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+
+    text-decoration:none;
+    color:white;
+    margin-left:35px;
+    font-size:18px;
+    transition:.3s;
+}
+
+nav a:hover{
+
+    color:#ffe066;
+}
+.main{
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    size-adjust: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main button{
+    width: 80px;
+    height:45px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    background:#008b8b;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main button:hover{
+    background:#006d6d;
+}
+.main p{
+    padding-right: 150px;
+    margin-bottom: 50px;
+}
+.Calculator{
+    width:350px;
+    background:white;
+    padding: 50px;
+    border:2px solid #ccc;
+    border-radius:20px;
+    box-shadow: 10px;
+    text-align:center;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.Calculator:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+.inputs{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+}
+
+input{
+    width:120px;
+    padding:10px;
+    font-size:16px;
+    border-radius: 2px;
+}
+
+.buttons{
+    margin:20px 0;
+    margin-top: 30px;
+}
+
+button{
+    width:45px;
+    height:45px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    background:#008b8b;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#006d6d;
+}
+
+#result{
+    width:80px;
+    margin:15px auto;
+    padding:10px;
+    border:2px solid #008b8b;
+    font-size:24px;
+}
+.feature-card{
+
+    background:white;
+
+    width:350px;
+
+    padding:25px;
+
+    margin-top:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.feature-card h2{
+
+    margin-bottom:15px;
+
+    color:#0d9488;
+}
+
+.feature-card p{
+
+    margin-bottom:20px;
+
+    color:#555;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <div class="logo">My Website</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    </header>
+    <div class="body1">
+        <div class=" main">
+            <!-- Color Change Button -->
+            
+            <div class="feature-container">
+                <h1>JavaScript Demo</h1>
+                <p>Learn basic JavaScript concepts including 
+                DOM Manipulation, Event Handling and Calculator Operations.</p>
+                <div class="feature-card">
+                    <h3>🎨 Color Change</h3>
+                    <p>Button changes color using JavaScript.</p>
+                </div>
+                <button id="colorBtn" onclick="changeColor()">
+                    Click Me
+                </button>
+                 <br><br>
+
+            <!-- Greeting -->
+                <div class="feature-card">
+                    <h3>👋 Greeting</h3>
+                    <p>Displays greeting based on current time.</p>
+                </div>
+                <button onclick="showGreeting()">
+                    Show Greeting
+                </button>
+
+                <br><br>
+            </div>
+                
+            <!-- Calculator -->
+            <div class="Calculator">
+                <h2>Simple Calculator</h2>
+
+                <div class="inputs">
+                    <input type="number" id="num1" placeholder="First Number">
+                    <input type="number" id="num2" placeholder="Second Number">
+                </div>
+
+                <div class="buttons">
+                    <button onclick="calculate('+')">+</button>
+                    <button onclick="calculate('-')">-</button>
+                    <button onclick="calculate('*')">*</button>
+                    <button onclick="calculate('/')">/</button>
+                    <button onclick="calculate('%')">%</button>
+                </div>
+
+                <h2>Result</h2>
+
+                <div id="result">0</div>
+
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
